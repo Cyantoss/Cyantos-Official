@@ -71,7 +71,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #3abbbb;
+    color: #ff005f;
 }
 
 .home-content p {
@@ -93,8 +93,8 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #3abbbb;
-    border: 2px solid #3abbbb;
+    background: #ff005f;
+    border: 2px solid #ff005f;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -107,13 +107,13 @@ body {
 }   
 
 .btn-box a:hover {
-    color:#3abbba;
+    color:#ff005f;
 } 
 
 
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #3abbbb;
+    color: #ff005f;
 }
 
 .btn-box a:nth-child(2):hover {
@@ -121,7 +121,7 @@ body {
 }
 
 .btn-box a:nth-child(2)::before {
-    background: #3abbbb;
+    background: #ff005f;
 }
 
 .btn-box a::before {
@@ -138,4 +138,21 @@ body {
 
 .btn-box a:hover::before {
     width: 100%;
+}
+
+.home-sci { 
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: green;
+    
+}
+
+.home-sci a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff005f;
+    border-radius: 50%;
 }
