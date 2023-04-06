@@ -52,3 +52,8 @@ body {
     align-items: center;
     padding: 0 10%;
 }
+
+.home {
+    size: 10;
+    color: #ededed;
+}
