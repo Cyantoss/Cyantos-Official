@@ -158,6 +158,11 @@ body {
     text-decoration: none ;
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    color: #081b29;
 }
 
 .home-sci a::before {
